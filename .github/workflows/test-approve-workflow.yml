@@ -2,7 +2,7 @@ name: test-approve-workflow
 
 on:
   pull_request_target:
-    types: [ready_for_review, review_requested]
+    types: [opened]
 
 jobs:
   echo-hello-world:
